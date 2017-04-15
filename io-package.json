@@ -14,9 +14,9 @@
 			  "ru": "Первоначальный адаптер"
 			}
 		},
-        "title":                    "Javascript/Node.js based solvis adapter",
+        "title": "Javascript/Node.js based solvis adapter",
         "desc":                     {
-				 "en": "ioBroker solvis Adapter",
+				 "en": "ioBroker Solvis Adapter",
 				 "de": "ioBroker Solvis Adapter",
 				 "ru": "ioBroker Solvis драйвер как образец"
 		},
@@ -28,12 +28,13 @@
 		"keywords":                 ["solvis", "vis", "GUI", "graphical", "scada"],
         "readme":                   "https://github.com/ioBroker/ioBroker.solvis/blob/master/README.md",
 		"loglevel":                 "info",
-        "type":                     "common adapters",
-        "restartAdapters":          ["vis"]
+        "type":                     "common adapters"
     },
     "native": {
-        "test1": true,
-        "test2": 42
+        "hostname": "solvis.lan",
+        "user": "user",
+        "password": "password",
+        "polling": 1
     },
     "objects": [
 

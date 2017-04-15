@@ -1,7 +1,7 @@
 {
   "name": "iobroker.solvis",
   "version": "0.5.0",
-  "description": "ioBroker solvis Adapter",
+  "description": "ioBroker Solvis Adapter",
   "author": {
     "name": "Ben Hell",
     "email": "ben@oject-d.net"
@@ -25,6 +25,7 @@
     "url": "https://github.com/ioBroker/ioBroker.solvis"
   },
   "dependencies": {
+    "request": "^2.76.0"
   },
   "devDependencies": {
       "grunt": "^0.4.5",
