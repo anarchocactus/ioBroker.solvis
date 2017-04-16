@@ -1,9 +1,9 @@
 {
   "common": {
     "name": "solvis",
-    "version": "0.5.0",
+    "version": "0.0.2",
     "news": {
-      "0.5.0": {
+      "0.0.2": {
         "en": "beta version",
         "de": "Betaversion",
         "ru": "Бета версия"
@@ -16,8 +16,8 @@
     },
     "title": "Solvis Adapter",
     "desc": {
-      "en": "ioBroker Solvis Adapter",
-      "de": "ioBroker Solvis Adapter",
+      "en": "Solvis heating system adapter",
+      "de": "Solvis Heizungssystem Adapter",
       "ru": "ioBroker Solvis драйвер как образец"
     },
     "platform": "Javascript/Node.js",
