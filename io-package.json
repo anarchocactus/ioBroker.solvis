@@ -1,42 +1,41 @@
 {
-    "common": {
-        "name":                     "solvis",
-        "version":                  "0.5.0",
-	    "news": {
-			"0.5.0": {
-			  "en": "beta version",
-			  "de": "Betaversion",
-			  "ru": "Бета версия"
-			},
-			"0.0.1": {
-			  "en": "initial adapter",
-			  "de": "Initiale Version",
-			  "ru": "Первоначальный адаптер"
-			}
-		},
-        "title": "Javascript/Node.js based solvis adapter",
-        "desc":                     {
-				 "en": "ioBroker Solvis Adapter",
-				 "de": "ioBroker Solvis Adapter",
-				 "ru": "ioBroker Solvis драйвер как образец"
-		},
-        "platform":                 "Javascript/Node.js",
-        "mode":                     "daemon",
-        "icon":                     "solvis.png",
-        "enabled":                  true,
-		"extIcon":                  "https://raw.githubusercontent.com/ioBroker/ioBroker.solvis/master/admin/solvis.png",
-		"keywords":                 ["solvis", "vis", "GUI", "graphical", "scada"],
-        "readme":                   "https://github.com/ioBroker/ioBroker.solvis/blob/master/README.md",
-		"loglevel":                 "info",
-        "type":                     "common adapters"
+  "common": {
+    "name": "solvis",
+    "version": "0.5.0",
+    "news": {
+      "0.5.0": {
+        "en": "beta version",
+        "de": "Betaversion",
+        "ru": "Бета версия"
+      },
+      "0.0.1": {
+        "en": "initial adapter",
+        "de": "Initiale Version",
+        "ru": "Первоначальный адаптер"
+      }
     },
-    "native": {
-        "hostname": "solvis.lan",
-        "user": "user",
-        "password": "password",
-        "polling": 1
+    "title": "Solvis Adapter",
+    "desc": {
+      "en": "ioBroker Solvis Adapter",
+      "de": "ioBroker Solvis Adapter",
+      "ru": "ioBroker Solvis драйвер как образец"
     },
-    "objects": [
-
+    "platform": "Javascript/Node.js",
+    "mode": "daemon",
+    "icon": "solvis.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/anarchocactus/ioBroker.solvis/master/admin/solvis.png",
+    "keywords": ["solvis","heating"],
+    "readme": "https://github.com/ioBroker/ioBroker.solvis/blob/master/README.md",
+    "loglevel": "info",
+    "type": "common adapters"
+  },
+  "native": {
+    "hostname": "solvis.lan",
+    "user": "user",
+    "password": "password",
+    "polling": 1
+  },
+  "objects": [
     ]
 }
