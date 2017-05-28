@@ -1,5 +1,13 @@
 ![Logo](admin/solvis.png)
 # ioBroker.solvis
+
+
+
+Die Dekodierung von sc2_val.xml basiert auf dem PHP-Scipt aus diesem thread:
+
+https://www.symcon.de/forum/threads/17065-SolvisMax-in-IPS-einbinden
+
+
 =================
 
 

@@ -1,24 +1,25 @@
 {
   "common": {
     "name": "solvis",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "news": {
+      "0.0.3": {
+        "en": "Removed debug output",
+        "de": "Debug output entfernt"
+      },
       "0.0.2": {
         "en": "beta version",
-        "de": "Betaversion",
-        "ru": "Бета версия"
+        "de": "Betaversion"
       },
       "0.0.1": {
         "en": "initial adapter",
-        "de": "Initiale Version",
-        "ru": "Первоначальный адаптер"
+        "de": "Initiale Version"
       }
     },
     "title": "Solvis Adapter",
     "desc": {
       "en": "Solvis heating system adapter",
-      "de": "Solvis Heizungssystem Adapter",
-      "ru": "ioBroker Solvis драйвер как образец"
+      "de": "Solvis Heizungssystem Adapter"
     },
     "platform": "Javascript/Node.js",
     "mode": "daemon",

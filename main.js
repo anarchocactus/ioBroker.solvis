@@ -130,7 +130,7 @@ function requestData() {
       }
     },function(error,response,data) {
 		  if(!error && response.statusCode == 200) {
-        adapter.log.info("Successfully requested data from Solvis Remote");
+        //adapter.log.info("Successfully requested data from Solvis Remote");
         setDataPoints(data);
 		  } else {
 			 adapter.log.error("Cannot get data from Solvis Remote!\n");
